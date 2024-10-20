@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 350px;
+}
+.title {
+  font-family: 'Georgia', serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.social-login button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.google-btn {
+  background-color: rgb(69, 197, 239);
+}
+.google-btn img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.or {
+  margin: 20px 0;
+  color: gray;
+}
+.email-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.next-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}

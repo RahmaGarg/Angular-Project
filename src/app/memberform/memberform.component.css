@@ -1,0 +1,11 @@
+.custom-form {
+  max-width: 600px; /* Ajustez la largeur maximale ici */
+  margin: auto; /* Centrer le formulaire */
+}
+.btn-lavender {
+  background-color: #E6E6FA; /* Couleur lavande */
+  color: #000; /* Couleur du texte */
+}
+.btn-lavender:hover {
+  background-color: #D6D6E7; /* Couleur plus foncée au survol */
+}

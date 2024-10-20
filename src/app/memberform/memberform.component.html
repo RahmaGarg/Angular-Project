@@ -1,0 +1,31 @@
+<form [formGroup]="form" (ngSubmit)="Sub()" class="custom-form container mt-5 p-4 border rounded shadow">
+  <div class="mb-3">
+    <label for="cin" class="form-label">CIN</label>
+    <input type="text" id="cin" class="form-control" formControlName="cin" placeholder="Enter your CIN" required>
+  </div>
+  
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" id="name" class="form-control" formControlName="name" placeholder="Enter your name" required>
+  </div>
+  
+  <div class="mb-3">
+    <label class="form-label">Type</label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" formControlName="type" value="Teacher" id="teacher" required>
+      <label class="form-check-label" for="teacher">Teacher</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" formControlName="type" value="Student" id="student">
+      <label class="form-check-label" for="student">Student</label>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="cv" class="form-label">CV</label>
+    <input type="file" id="cv" class="form-control" (change)="onFileChange($event)" required>
+    <small *ngIf="cvFileName">{{ cvFileName }}</small> <!-- Show the name of the selected file -->
+  </div>
+
+  <button type="submit" class="btn btn-lavender btn-lg w-100">Submit</button>
+</form>

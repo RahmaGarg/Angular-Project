@@ -1,0 +1,105 @@
+{
+  "members": [
+    {
+      "id": "1245",
+      "cin": "123456789",
+      "name": "Rahma",
+      "cv": "lien",
+      "type": "teacher",
+      "createdDate": "12/04/2024"
+    },
+    {
+      "id": "6789",
+      "cin": "123456009",
+      "name": "Imene",
+      "cv": "lien",
+      "type": "teacher",
+      "createdDate": "08/04/2024"
+    },
+    {
+      "id": "ec17",
+      "cin": "00000000000",
+      "name": "Nada",
+      "cv": "line",
+      "type": "Student",
+      "createdDate": "10/16/2024"
+    },
+    {
+      "id": "b669",
+      "cin": "0011221",
+      "name": "iheb",
+      "cv": "link",
+      "type": "Student",
+      "createdDate": "2024-10-20T15:52:47.707Z"
+    },
+    {
+      "id": "a4d8",
+      "cin": "546584185",
+      "name": "sameh",
+      "cv": "link",
+      "type": "Teacher",
+      "createdDate": "2024-10-20T15:55:48.994Z"
+    },
+    {
+      "id": "1ecd",
+      "cin": "5412545",
+      "name": "Slim",
+      "cv": null,
+      "type": "Student",
+      "createdDate": "2024-10-20T21:59:46.457Z"
+    },
+    {
+      "id": "9ad3",
+      "cin": "515484",
+      "name": "mouadh",
+      "cv": null,
+      "type": "Student",
+      "createdDate": "2024-10-20T22:01:18.058Z"
+    }
+  ],
+  "evt": [
+    {
+      "id": "a0a7",
+      "titre": "Congres allmend",
+      "dateDebut": "2024-10-03T23:00:00.000Z",
+      "dateFin": "2024-10-18T23:00:00.000Z",
+      "lieu": "Allmend"
+    },
+    {
+      "id": "4f00",
+      "titre": "Conference2",
+      "dateDebut": "2024-10-29T23:00:00.000Z",
+      "dateFin": "2024-10-30T23:00:00.000Z",
+      "lieu": "Gabes"
+    },
+    {
+      "id": "f493",
+      "titre": "Conference1",
+      "dateDebut": "2024-10-13T23:00:00.000Z",
+      "dateFin": "2024-10-17T23:00:00.000Z",
+      "lieu": "Tunis"
+    }
+  ],
+  "Outil": [
+    {
+      "id": "035b",
+      "date": "2024-10-16T23:00:00.000Z",
+      "source": "Wikipedia"
+    },
+    {
+      "id": "f798",
+      "date": "2024-10-02T23:00:00.000Z",
+      "source": "Google"
+    }
+  ],
+  "Pub": [
+    {
+      "titre": "guerre2",
+      "type": "historique",
+      "lien": "lien",
+      "date": "2024-10-15T23:00:00.000Z",
+      "sourcePdf": "hhhhgt",
+      "id": "2ab4"
+    }
+  ]
+}

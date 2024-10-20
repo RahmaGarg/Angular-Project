@@ -1,0 +1,58 @@
+.card-members {
+    background-color: #c0e0f9; /* Soft blue */
+    color: #1a1a1a; /* Dark grey text */
+    text-align: center; /* Centre the text */
+    padding: 20px; /* Add space inside the box */
+  }
+  
+  .card-events {
+    background-color: #ffd7b5; /* Warm peach */
+    color: #333; /* Dark grey text */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card-tools {
+    background-color: #d3c2f3; /* Light purple */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card-articles {
+    background-color: #faf3d1; /* Soft yellow */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  mat-card {
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    border-radius: 10px; /* Smooth the corners */
+  }
+  .card-members:hover,
+  .card-events:hover,
+  .card-tools:hover,
+  .card-articles:hover,
+  mat-card:hover {
+    transform: scale(1.05); /* Scale the box by 5% when hovered */
+  }  
+  .charts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adjust spacing as needed */
+  }
+  
+  .chart-wrapper {
+    flex: 1; /* Allow the charts to grow equally */
+    max-width: 45%; /* Adjust as needed for responsiveness */
+    margin: 0 10px; /* Space between the charts */
+  }
+  
+  canvas {
+    width: 80% !important; /* Ensure canvas fills the wrapper */
+    height: auto !important; /* Maintain aspect ratio */
+  }
+  

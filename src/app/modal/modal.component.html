@@ -1,0 +1,47 @@
+<mat-dialog-content [formGroup]="form">
+  <mat-form-field appearance="fill">
+    <mat-label>Titre</mat-label>
+    <input matInput formControlName="titre" />
+    <mat-error *ngIf="form.get('titre')?.hasError('required')">
+      Titre is required.
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Enter a date range</mat-label>
+    <mat-date-range-input [rangePicker]="picker">
+      <input
+        matStartDate
+        formControlName="dateDebut"
+        placeholder="Start date"
+      />
+      <input
+        matEndDate
+        formControlName="dateFin"
+        placeholder="End date"
+      />
+    </mat-date-range-input>
+    <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-date-range-picker #picker></mat-date-range-picker>
+    <mat-error *ngIf="form.get('dateDebut')?.hasError('required')">
+      Start date is required.
+    </mat-error>
+    <mat-error *ngIf="form.get('dateFin')?.hasError('required')">
+      End date is required.
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Lieu</mat-label>
+    <input matInput formControlName="lieu" />
+    <mat-error *ngIf="form.get('lieu')?.hasError('required')">
+      Lieu is required.
+    </mat-error>
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button class="btn btn-secondary" (click)="close()">Close</button>
+  <button class="btn btn-primary" (click)="save()">Save</button>
+</mat-dialog-actions>

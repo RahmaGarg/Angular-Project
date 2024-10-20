@@ -1,0 +1,67 @@
+.modal-header {
+  display: flex;
+  flex-direction: column; /* Stack the icon and title */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 20px; /* Add padding around the header */
+}
+
+.icon-box {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px; /* Space below the icon */
+  border-radius: 50%;
+  border: 3px solid #f15e5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0; /* Padding above and below the icon */
+}
+
+.icon-box i {
+  color: #f15e5e;
+  font-size: 36px; /* Adjust icon size */
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 35px; /* Font size of the title */
+  margin: 0; /* Remove default margin */
+}
+
+.modal-body {
+  color: #999;
+  text-align: center; /* Center text in the body */
+  padding: 20px 10px; /* Add padding for better spacing */
+}
+
+.modal-footer {
+  border: none;
+  text-align: center;
+  padding: 10px 10px; /* Consistent padding */
+}
+
+.btn {
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.4s;
+  min-width: 120px;
+  min-height: 40px;
+  margin: 0 5px;
+}
+
+.btn-info {
+  background: #c1c1c1;
+}
+
+.btn-info:hover, .btn-info:focus {
+  background: #a8a8a8;
+}
+
+.btn-danger {
+  background: #f15e5e;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+  background: #ee3535;
+}

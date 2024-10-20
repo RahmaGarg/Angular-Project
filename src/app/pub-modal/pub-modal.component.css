@@ -1,0 +1,21 @@
+.mat-dialog-actions {
+    justify-content: flex-end; /* Aligns buttons to the right */
+  }
+  
+  .btn {
+    margin-left: 8px; /* Adds space between buttons */
+    padding: 8px 16px; /* Adjusts padding for a better look */
+    border-radius: 4px; /* Ensures rounded corners */
+    font-weight: 600; /* Makes text bold */
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; /* Bootstrap's secondary color */
+    color: white; /* White text for contrast */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Bootstrap's primary color */
+    color: white; /* White text for contrast */
+  }
+  

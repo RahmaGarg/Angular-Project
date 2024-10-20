@@ -1,0 +1,19 @@
+<div class="modal-dialog modal-confirm">
+  <div class="modal-content">
+      <div class="modal-header">
+          <div class="icon-box">
+              <i class="material-icons">&#xE5CD;</i>
+          </div>
+          <h1 mat-dialog-title class="modal-title">Are you sure?</h1>
+      </div>
+      <mat-dialog-content class="modal-body">
+          <p>This will delete all elements that are currently on this page and cannot be undone.</p>
+      </mat-dialog-content>
+      <div class="modal-footer">
+          <mat-dialog-actions>
+              <button mat-button class="btn btn-info" mat-dialog-close>Cancel</button>
+              <button mat-button class="btn btn-danger" [mat-dialog-close]="true">Delete</button>
+          </mat-dialog-actions>
+      </div>
+  </div>
+</div>
